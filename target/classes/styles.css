@@ -1,0 +1,107 @@
+/** Window Background **/
+.screen-root {
+    -fx-background-color: linear-gradient(to bottom, #F7F9FC, #E9EEF5);
+}
+
+/** All Label Controls **/
+.label{
+    -fx-font-size: 20pt;
+    -fx-font-family: serif;
+    -fx-text-alignment: left;
+    -fx-font-style: normal;
+    -fx-font-weight: normal;
+}
+
+/** All Button Controls **/
+.button{
+    -fx-font-size: 20pt;
+    -fx-font-family: serif;
+    -fx-text-alignment: left;
+    -fx-font-style: normal;
+    -fx-font-weight: normal;
+    -fx-background-color: #5a6f8c;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow( three-pass-box, black, 10.0, 0.0, 0.0, 0.0);
+    -fx-cursor:hand;   
+}
+.button:hover {
+    -fx-background-color: #4C5F78;
+}
+
+/** Make/Miss Buttons in shot chart **/
+.make-btn {
+    -fx-border-color: #5A6F8C;
+    -fx-border-width: 3;
+    -fx-background-color: transparent;
+    -fx-text-fill: #5A6F8C;
+    -fx-background-radius: 50;
+    -fx-border-radius: 50;
+    -fx-font-size: 18px;
+    -fx-pref-width: 100px;
+    -fx-pref-height: 100px;
+}
+
+.make-btn:hover {
+    -fx-border-color: #4C5F78;
+    -fx-text-fill: #4C5F78;
+}
+
+.miss-btn {
+    -fx-border-color: #A0A0A0;
+    -fx-border-width: 3;
+    -fx-background-color: transparent;
+    -fx-text-fill: #A0A0A0;
+    -fx-background-radius: 50;
+    -fx-border-radius: 50;
+    -fx-font-size: 18px;
+    -fx-pref-width: 100px;
+    -fx-pref-height: 100px;
+}
+
+.miss-btn:hover {
+    -fx-border-color: #8E8E8E;
+    -fx-text-fill: #8E8E8E;
+}
+
+/** Title Bars **/
+.title-text {
+    -fx-font-size: 36px;
+    -fx-font-weight: 600;
+    -fx-text-fill: #2E2E2E;
+    -fx-letter-spacing: 1.5px;
+}
+
+/** Stats Panel **/
+.stats-box {
+    -fx-background-color: rgba(255,255,255,0.90);
+    -fx-background-radius: 12;
+    -fx-padding: 15;
+    -fx-spacing: 8;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.08), 4, 0, 0, 2);
+    -fx-max-width: 160; 
+    -fx-max-height: 300;
+    -fx-padding: 8 40 8 8; 
+}
+
+.stats-label {
+    -fx-font-weight: bold;
+    -fx-text-fill: #2E2E2E;
+    -fx-font-size:10.5pt;
+}
+
+.stats-number {
+    -fx-font-size: 18pt;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2E2E2E;
+}
+
+.zone-label {
+    -fx-pref-width: 60px;
+    -fx-wrap-text: true;
+    -fx-text-alignment: center;
+    -fx-alignment: center;
+    -fx-padding: 4px;
+    -fx-background-color: rgba(255,255,255,0.35);
+    -fx-background-radius: 4px;
+    -fx-font-size: 12px;
+}
